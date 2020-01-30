@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-export default styled.button`
+const Button = styled.button`
   background-color: #2a228eff;
   border-radius: 4px;
   border: none;
@@ -17,3 +17,5 @@ export default styled.button`
     background-color: #10086a;
   }
 `
+
+export default Button
